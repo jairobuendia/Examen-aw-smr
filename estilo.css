@@ -1,0 +1,103 @@
+/**************ESTILO GENERAL DE MI PAGINA*********/
+
+
+body{background-color: rgb(250, 215, 221);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#wrapper{margin: auto;
+        width: 95%;
+    }
+
+/*********** estilo header *************/
+
+header{background-image: url(imagenes/header.jpg);
+        background-size: cover;
+        background-position: right;
+        height: 330px;
+        position: relative;}
+header h1{position:absolute;
+        color: white;
+        bottom: 145px;
+        left: 155px;}
+    
+/*************+estilo barra nav**************/
+nav{background-color: rgb(59, 154, 187);}
+
+nav ul{margin: 0;
+        list-style: none;
+        padding-left: 0;
+        }
+nav ul li{display: inline-block;
+        padding: 14px;
+        font-size: 3vh;
+}
+
+nav ul li a {text-decoration: none;
+            color: white;
+            font-weight: bold;
+            }
+
+nav ul li a:hover{color: rgb(250, 170, 184);}
+
+
+/********** estilo main*************/
+
+main{background-color: rgb(218, 214, 214);}
+
+main h1{margin: 0;
+        text-align: center;
+        color: rgb(238, 127, 142);
+        padding: 20px;
+        font-size: 40px;}
+main p{padding-left: 2%;
+        padding-right: 2%;
+        margin: 0;
+        text-indent: 50px;
+        text-align: justify;
+        padding-bottom: 1%;
+        }
+
+main img{border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.527) 20px 20px 20px;
+        width: 19%;
+        margin: 2.5%;
+    
+        
+        }
+main img:hover{opacity: 0.5;}
+
+main ul{padding-bottom: 40px;
+        padding-left: 5%;
+        }
+
+
+/*********** ESTILO DEL FOOTER********/
+
+footer{background-color: rgb(59, 154, 187);}
+
+footer p{text-align: center;
+        padding: 1.5%;
+        color: white;
+        font-size: 90%;
+        margin: 0;}
+
+/********* MEDIAS PARA DIFERENTES DISPOSITIVOS ***********/
+
+@media only screen and (max-width:900px){
+    main img{width: 40%;
+            margin: 4.8%;}
+    main p{padding: 20px;
+            padding-bottom: 0;}
+    main ul{padding-left: 60px;}
+
+}
+
+@media only screen and (max-width:600px){
+    main img{width: 80%;
+            margin: 10%;
+            }
+    main p{padding: 20px;
+            padding-bottom: 0;}
+    main ul{padding-left: 50px;}
+
+}
